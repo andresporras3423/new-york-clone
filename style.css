@@ -546,3 +546,8 @@
   font-style: normal;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
 }
+
+.image2-credits{
+  font-family:nyt-imperial, georgia, "times new roman", times, serif;
+  font-size:13px;
+}
