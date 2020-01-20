@@ -10,7 +10,7 @@
     display: flex;
   }
 
-  .flex-horizontal-center {
+  .flex-horizontal-align {
     flex-direction: column;
     justify-content: center;
   }
@@ -18,6 +18,12 @@
   .flex-vertical-align {
     flex-direction:row;
     align-items:center;
+  }
+
+  .flex-center-align{
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
   }
 
   .text-horizontal-align {
@@ -412,7 +418,7 @@
   .inflation-theory-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap:10px;
   }
 
@@ -509,4 +515,15 @@
 .menu-icon {
   width: auto;
   height: 100%;
+}
+
+.css-8xcdch {
+  transform: rotate(-90deg);
+  transition: transform 500ms ease 0s;
+}
+
+.expand-font{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 600;
 }
