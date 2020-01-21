@@ -446,6 +446,16 @@
     grid-column:4;
   }
 
+  .grid-1-5{
+    grid-row:1;
+    grid-column:5;
+  }
+
+  .grid-1-6{
+    grid-row:1;
+    grid-column:6;
+  }
+
   .grid-2-1{
     grid-row:2;
     grid-column:1;
@@ -516,6 +526,17 @@
     grid-column:1;
   }
 
+  .group-icons-grid{
+    display:grid;
+    grid-template-columns: 6fr 4fr;
+  }
+
+  .icons-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+  }
+
 .menu-icon {
   width: auto;
   height: 100%;
@@ -550,4 +571,27 @@
 .image2-credits{
   font-family:nyt-imperial, georgia, "times new roman", times, serif;
   font-size:13px;
+}
+
+.css-4brsb6 {
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #999;
+  border: 1px #999 solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.css-4brsb6:hover{
+  background-color: #eee;
+  border: 1px #eee solid;
+}
+
+.css-ubw31m:hover{
+  background-color: #eee;
+  border: 1px #eee solid;
 }
