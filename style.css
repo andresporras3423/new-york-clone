@@ -542,6 +542,23 @@ button {
 .group-icons-grid {
   display: grid;
   grid-template-columns: 6fr 4fr;
+
+}
+
+.group-icons-grid2 {
+  display: grid;
+    grid-template-columns: 10fr 3fr 5fr;
+    align-items: center;
+}
+
+.group-icons-grid2 button{
+  height:35px;
+}
+
+.icons-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .icons-grid {
@@ -658,4 +675,31 @@ button {
 .editor-pick img {
   width: 75px;
   height: 75px;
+}
+
+.article-version{
+  font-size:12px;
+  color:rgb(102, 102, 102);
+}
+
+.article-version  a{
+  color:rgb(102, 102, 102);
+
+}
+
+.article-version  a:hover{
+  text-decoration: none;
+}
+
+.author{
+  font-weight:700;  
+  font-size:15px;
+}
+
+.author a{
+  color:black;
+}
+
+.author a:hover{
+  text-decoration: none;
 }
