@@ -480,6 +480,10 @@ p {
   padding-bottom: 15px;
 }
 
+.author a {
+  color: black;
+}
+
 .subscribe li a {
   font-size: 11px;
 }
@@ -554,14 +558,8 @@ p {
   margin-bottom: 75px;
 }
 
-
-
 .bottom-list li:hover {
   text-decoration: underline;
-}
-
-.author a {
-  color: black;
 }
 
 .author a:hover {
