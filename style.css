@@ -484,6 +484,13 @@ p {
   color: black;
 }
 
+.last-section-list a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
 .subscribe li a {
   font-size: 11px;
 }
@@ -564,13 +571,6 @@ p {
 
 .bottom-list li:hover {
   text-decoration: underline;
-}
-
-.last-section-list a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
 }
 
 .last-section-list a:hover {
