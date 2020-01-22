@@ -5,8 +5,8 @@ body {
 header nav {
   height: 40px;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: white;
 }
@@ -228,7 +228,6 @@ p {
   width: 100%;
   text-align: center;
 }
-
 
 .navigation-button button {
   margin: 3px;
@@ -480,7 +479,7 @@ button {
 
 .more-grid div a {
   padding-right: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: 10px;
   color: black;
   font-family: georgia, "times new roman", times, serif;
@@ -537,8 +536,7 @@ button {
 
 .image-credit {
   font-size: 14px;
-  font-size: .875rem;
-  line-height: 18px;
+  font-size: 0.875rem;
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
@@ -559,8 +557,6 @@ button {
   border: 1px #999 solid;
   border-radius: 100%;
   padding: 5px;
-  width: 15px;
-  height: 15px;
 }
 
 .css-4brsb6:hover {
@@ -686,8 +682,8 @@ footer {
 footer nav {
   height: 60px;
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   width: 100%;
   background-color: #333;
 }
