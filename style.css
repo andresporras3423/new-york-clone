@@ -606,7 +606,7 @@ button {
 }
 
 
-.comment{
+.comment {
   font-size: 15px;
 }
 
@@ -1194,4 +1194,53 @@ li .list-icon {
 
 .bottom-list li:hover {
   text-decoration: underline;
+}
+
+.space-ripples {
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.big-band {
+  font-size: 35px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.cosmos-image {
+  width: 100%;
+}
+
+.rick-friedman {
+  font-size: 13px;
+}
+
+.date-font {
+  font-size: 13px;
+}
+
+.line-width {
+  width: 80px;
+}
+
+.unlock {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.login {
+  text-align: center;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.over-aside {
+  height: 1400px;
+}
+
+iframe {
+  border: none;
 }
