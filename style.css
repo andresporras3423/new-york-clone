@@ -28,6 +28,27 @@ header nav {
   background-color: white;
 }
 
+footer {
+  margin-top: 50px;
+}
+
+footer nav {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+footer span {
+  color: white;
+  font-size: 13px;
+  display: block;
+  padding-top: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .float-xs-1 {
   float: left;
   width: 8.33%;
@@ -435,34 +456,25 @@ p {
   border-color: #2e6da4;
 }
 
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.article-version a {
-  color: rgb(102, 102, 102);
-}
-
-.article-version a:hover {
+.most-popular a {
+  padding-top: 5px;
+  border-top: solid 1px lightgray;
   text-decoration: none;
+}
+
+.most-popular a:hover {
+  color: rgb(125, 125, 125);
+}
+
+.most-popular-container {
+  margin-left: 12px;
+}
+
+.most-popular a {
+  font-weight: 700;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .author a {
@@ -597,52 +609,10 @@ p {
   border-top: solid 1px black;
 }
 
-.most-popular a {
-  padding-top: 5px;
-  border-top: solid 1px lightgray;
-  text-decoration: none;
-}
-
-.most-popular a:hover {
-  color: rgb(125, 125, 125);
-}
-
-.most-popular-container {
-  margin-left: 12px;
-}
-
-.most-popular a {
-  font-weight: 700;
-  color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .css-oylsik {
   display: block;
   height: 44px;
   width: 184px;
-}
-
-footer {
-  margin-top: 50px;
-}
-
-footer nav {
-  height: 60px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333;
-}
-
-footer span {
-  color: white;
-  font-size: 13px;
-  display: block;
-  padding-top: 22px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .last-section {
@@ -803,6 +773,14 @@ iframe {
 
 .span-relative {
   position: relative;
+}
+
+.article-version a {
+  color: rgb(102, 102, 102);
+}
+
+.article-version a:hover {
+  text-decoration: none;
 }
 
 .editor-pick a {
