@@ -1,3 +1,24 @@
+body {
+  min-width: 1310px;
+}
+
+header nav {
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+footer nav {
+  height: 40px; 
+  position: fixed; 
+  bottom: 0px; 
+  left: 0px; 
+  width: 100%;
+}
+
 /* BEGIN  this is not flexbox*/
 .float-xs-1 {
   float: left;
@@ -269,6 +290,8 @@ button {
   font-size: 11px;
   line-height: 11px;
   font-weight: 700;
+  height: 34px;
+  text-transform: uppercase;
 }
 
 .space-font {
@@ -277,6 +300,8 @@ button {
   font-weight: 700;
   text-decoration: none;
   color: black;
+  display:block;
+  padding-top: 11px;
 }
 
 .space-font:hover {
@@ -735,6 +760,7 @@ font-size:10px;
     font-family:georgia, "times new roman", times, serif;
     font-size:16px;
     text-decoration: none;
+    display:block;
 }
 
 .more-grid div a:hover{
@@ -899,7 +925,9 @@ font-size:10px;
 
 .menu-icon {
   width: auto;
-  height: 100%;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .css-8xcdch {
