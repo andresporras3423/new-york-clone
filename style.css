@@ -1060,4 +1060,59 @@ button {
   padding-top:15px;
   padding-bottom:15px;
 }
+.css-oylsik {
+  display: block;
+  height: 44px;
+  width: 184px;
+}
 
+footer{
+margin-top:50px;
+}
+
+.last-section{
+  margin-bottom:100px;
+}
+
+.other-sections::before {
+  background-color: white;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.more-most{
+  margin-bottom:60px;
+}
+
+
+.go-home {
+  color: #567b95;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.last-section-list ul li{
+  list-style-type: none;
+  margin-bottom:5px;
+}
+
+.last-section-list ul li:first-child{
+  color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin;
+    height: 25px;
+    line-height: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    width: 150px;
+}
