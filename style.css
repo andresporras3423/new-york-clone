@@ -3,21 +3,18 @@
   float: left;
   width: 8.33%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-2 {
   float: left;
   width: 16.66%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-3 {
   float: left;
   width: 25%;
   min-height: 1px;
-  height: inherit;
 }
 
 
@@ -25,20 +22,17 @@
   float: left;
   width: 33.33%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-5 {
   float: left;
   width: 41.66%;
-  height: inherit;
 }
 
 .float-xs-6 {
   float: left;
   width: 50%;
   min-height: 1px;
-  height: inherit;
 }
 
 
@@ -46,42 +40,42 @@
   float: left;
   width: 58.33%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-8 {
   float: left;
   width: 66.66%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-9 {
   float: left;
   width: 75%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-10 {
   float: left;
   width: 83.33%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-11 {
   float: left;
   width: 91.66%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-xs-12 {
   float: left;
   width: 100%;
   min-height: 1px;
-  height: inherit;
+}
+
+.float-r-xs-12 {
+  float: right;
+  width: 100%;
+  min-height: 1px;
 }
 
 
@@ -89,140 +83,120 @@
   float: left;
   width: 5%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-2 {
   float: left;
   width: 10%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-3 {
   float: left;
   width: 15%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-4 {
   float: left;
   width: 20%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-5 {
   float: left;
   width: 25%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-6 {
   float: left;
   width: 30%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-7 {
   float: left;
   width: 35%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-8 {
   float: left;
   width: 40%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-9 {
   float: left;
   width: 45%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-10 {
   float: left;
   width: 50%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-11 {
   float: left;
   width: 55%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-12 {
   float: left;
   width: 60%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-13 {
   float: left;
   width: 65%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-14 {
   float: left;
   width: 70%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-15 {
   float: left;
   width: 75%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-16 {
   float: left;
   width: 80%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-17 {
   float: left;
   width: 85%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-18 {
   float: left;
   width: 90%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-19 {
   float: left;
   width: 95%;
   min-height: 1px;
-  height: inherit;
 }
 
 .float-d-xs-20 {
   float: left;
   width: 100%;
   min-height: 1px;
-  height: inherit;
 }
 
 /* END  this is not flexbox*/
@@ -736,9 +710,38 @@ button {
 
 }
 
-.more-grid div h5{
+.more-grid div span{
+  padding-top:4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+text-align:right;
+color:rgb(153, 153, 153);
+font-family: georgia, "times new roman";
+font-size:10px;
+} 
+
+.more-grid div p{
+text-align:left;
+color:rgb(153, 153, 153);
+font-family: georgia, "times new roman";
+font-size:10px;
+} 
+
+.more-grid div a{
     padding-right: 10px;
+    margin-bottom:0px;
+    margin-top:10px;
+    color:black;
+    font-family:georgia, "times new roman", times, serif;
+    font-size:16px;
+    text-decoration: none;
 }
+
+.more-grid div a:hover{
+  color:rgb(153, 153, 153);
+}
+
+
 
 .top-margin-editor{
   margin-top:20px;
@@ -1116,3 +1119,4 @@ margin-top:50px;
     text-transform: uppercase;
     width: 150px;
 }
+
