@@ -471,14 +471,6 @@ p {
   color: rgb(102, 102, 102);
 }
 
-.editor-pick a:hover {
-  text-decoration: underline;
-}
-
-.article-version a:hover {
-  text-decoration: none;
-}
-
 .most-popular a {
   border-top: solid 1px lightgray;
   text-decoration: none;
@@ -486,6 +478,14 @@ p {
   color: black;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.editor-pick a:hover {
+  text-decoration: underline;
+}
+
+.article-version a:hover {
+  text-decoration: none;
 }
 
 .most-popular a:hover {
