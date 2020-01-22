@@ -460,8 +460,114 @@ p {
   margin-left: 12px;
 }
 
+
+.last-section-list a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.last-section-list a:hover {
+  text-decoration: underline;
+}
+
+.editor-pick a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+}
+
+.editor-pick a:hover {
+  text-decoration: underline;
+}
+
+.article-version a {
+  color: rgb(102, 102, 102);
+}
+
+.article-version a:hover {
+  text-decoration: none;
+}
+
+.most-popular a {
+  border-top: solid 1px lightgray;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.most-popular a:hover {
+  color: rgb(125, 125, 125);
+}
+
 .subscribe li a {
   font-size: 11px;
+}
+
+.more-grid div a {
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.more-grid div a:hover {
+  color: rgb(153, 153, 153);
+}
+
+.more-grid div {
+  height: 250px;
+}
+
+.more-grid div img {
+  width: 95%;
+}
+
+.more-grid div span {
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.more-grid div p {
+  text-align: left;
+  color: rgb(153, 153, 153);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.bottom-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 75px;
+}
+
+.bottom-list li {
+  display: inline;
+}
+
+.bottom-list li a {
+  color: rgb(125, 125, 125);
+  font-size: 11px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.bottom-list li:hover {
+  text-decoration: underline;
 }
 
 .author a {
@@ -649,26 +755,9 @@ li .list-icon {
   vertical-align: middle;
 }
 
-.bottom-list {
-  margin: 0;
-  padding: 0;
+.last-section-list ul li {
   list-style-type: none;
-  margin-bottom: 75px;
-}
-
-.bottom-list li {
-  display: inline;
-}
-
-.bottom-list li a {
-  color: rgb(125, 125, 125);
-  font-size: 11px;
-  text-decoration: none;
-  padding: 8px;
-}
-
-.bottom-list li:hover {
-  text-decoration: underline;
+  margin-bottom: 5px;
 }
 
 .space-ripples {
@@ -724,38 +813,6 @@ iframe {
   position: relative;
 }
 
-.most-popular a {
-  border-top: solid 1px lightgray;
-  text-decoration: none;
-  font-weight: 700;
-  color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.most-popular a:hover {
-  color: rgb(125, 125, 125);
-}
-
-.article-version a {
-  color: rgb(102, 102, 102);
-}
-
-.article-version a:hover {
-  text-decoration: none;
-}
-
-.editor-pick a {
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  margin-left: 12px;
-}
-
-.editor-pick a:hover {
-  text-decoration: underline;
-}
-
 .last-section-list:last-of-type {
   border-left: 1px solid #e2e2e2;
   float: left;
@@ -764,11 +821,6 @@ iframe {
 
 .last-section-list:last-of-type ul {
   padding-left: 10px;
-}
-
-.last-section-list ul li {
-  list-style-type: none;
-  margin-bottom: 5px;
 }
 
 .last-section-list h3 {
@@ -781,55 +833,4 @@ iframe {
   margin: 0;
   text-transform: uppercase;
   width: 140px;
-}
-
-.last-section-list a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-
-.last-section-list a:hover {
-  text-decoration: underline;
-}
-
-.more-grid div a {
-  padding-right: 10px;
-  margin-bottom: 0;
-  margin-top: 10px;
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.more-grid div a:hover {
-  color: rgb(153, 153, 153);
-}
-
-.more-grid div {
-  height: 250px;
-}
-
-.more-grid div img {
-  width: 95%;
-}
-
-.more-grid div span {
-  padding-top: 4px;
-  padding-right: 10px;
-  padding-bottom: 4px;
-  text-align: right;
-  color: rgb(153, 153, 153);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 10px;
-}
-
-.more-grid div p {
-  text-align: left;
-  color: rgb(153, 153, 153);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 10px;
 }
