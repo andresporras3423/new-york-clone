@@ -467,12 +467,12 @@ p {
   margin-left: 12px;
 }
 
-.editor-pick a:hover {
-  text-decoration: underline;
-}
-
 .article-version a {
   color: rgb(102, 102, 102);
+}
+
+.editor-pick a:hover {
+  text-decoration: underline;
 }
 
 .article-version a:hover {
