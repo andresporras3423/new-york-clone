@@ -30,7 +30,6 @@ header nav {
   min-height: 1px;
 }
 
-
 .float-xs-4 {
   float: left;
   width: 33.33%;
@@ -90,7 +89,6 @@ header nav {
   width: 100%;
   min-height: 1px;
 }
-
 
 .float-d-xs-1 {
   float: left;
@@ -212,7 +210,6 @@ header nav {
   min-height: 1px;
 }
 
-/* END  this is not flexbox*/
 p {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 20px;
@@ -229,8 +226,6 @@ p {
   font-weight: bold;
 }
 
-/* Begin of TINB */
-
 .text-horizontal-align {
   width: 100%;
   text-align: center;
@@ -239,7 +234,7 @@ p {
 
 .navigation-button button {
   margin: 3px;
-  float:right;
+  float: right;
 }
 
 .bottom-border {
@@ -308,12 +303,9 @@ button {
   background-color: transparent;
 }
 
-
-
 .comment {
   font-size: 15px;
 }
-
 
 .content-grid {
   font-size: 20px;
@@ -397,7 +389,104 @@ button {
 
 .more-grid div img {
   width: 95%;
+}
 
+.icons-grid {
+  text-align: center;
+}
+
+.icons-grid span {
+  position: relative;
+}
+
+.icons-grid span p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  position: absolute;
+  top: 20%;
+  left: 24%;
+}
+
+.span-relative span {
+  position: absolute;
+  top: 19%;
+  left: 23%;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .more-grid div span {
@@ -432,8 +521,6 @@ button {
   color: rgb(153, 153, 153);
 }
 
-
-
 .top-margin-editor {
   margin-top: 20px;
 }
@@ -442,27 +529,8 @@ button {
   font-size: 14px;
 }
 
-
 .group-icons-grid2 button {
   height: 35px;
-}
-
-
-.icons-grid {
-  text-align: center;
-}
-
-.icons-grid span {
-  position: relative;
-}
-
-.icons-grid span p {
-  margin: 0;
-  padding: 0;
-  font-size: 13px;
-  position: absolute;
-  top: 20%;
-  left: 24%;
 }
 
 .menu-icon {
@@ -584,7 +652,6 @@ button {
 
 .article-version a {
   color: rgb(102, 102, 102);
-
 }
 
 .article-version a:hover {
@@ -679,7 +746,6 @@ footer span {
   margin-bottom: 60px;
 }
 
-
 .go-home {
   color: #567b95;
   font-family: nyt-franklin;
@@ -746,7 +812,6 @@ li .list-icon {
   margin-right: 7px;
   vertical-align: middle;
 }
-
 
 .bottom-list {
   margin: 0;
@@ -819,12 +884,6 @@ iframe {
   border: none;
 }
 
-.span-relative{
-  position:relative;
-}
-
-.span-relative span{
-  position:absolute;
-  top:19%;
-  left:23%;
+.span-relative {
+  position: relative;
 }
