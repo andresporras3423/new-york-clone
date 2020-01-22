@@ -457,17 +457,6 @@ p {
   user-select: none;
 }
 
-.editor-pick a {
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  margin-left: 12px;
-}
-
-.editor-pick a:hover {
-  text-decoration: underline;
-}
-
 .article-version a {
   color: rgb(102, 102, 102);
 }
@@ -515,7 +504,7 @@ p {
 }
 
 .expand-font {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 600;
   padding-top: 22px;
@@ -536,7 +525,7 @@ p {
 }
 
 .image2-credits {
-  font-family: 'Times New Roman', Times, serif, times, serif;
+  font-family: 'Times New Roman', Times, serif, times;
   font-size: 13px;
 }
 
@@ -705,7 +694,7 @@ footer span {
   color: #333;
   font-size: 13px;
   font-weight: 700;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   height: 25px;
   line-height: 15px;
   margin: 0;
@@ -716,7 +705,7 @@ footer span {
 .last-section-list a {
   text-decoration: none;
   color: black;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -816,12 +805,23 @@ iframe {
   position: relative;
 }
 
+.editor-pick a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+}
+
+.editor-pick a:hover {
+  text-decoration: underline;
+}
+
 .more-grid div a {
   padding-right: 10px;
   margin-bottom: 0;
   margin-top: 10px;
   color: black;
-  font-family: 'Times New Roman', Times, serif, times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   text-decoration: none;
   display: block;
