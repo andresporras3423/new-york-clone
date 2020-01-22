@@ -524,6 +524,11 @@ p {
   font-size: 13px;
 }
 
+.read-comments-padding
+{
+  padding-bottom:25px;
+}
+
 .css-4brsb6 {
   display: inline-block;
   height: 15px;
