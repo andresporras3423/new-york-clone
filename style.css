@@ -727,12 +727,22 @@ button {
   width: 200px;
 }
 
+.more-grid div{
+  height:250px;
+}
+
 .more-grid div img {
   width: 95%;
 
 }
 
+.more-grid div h5{
+    padding-right: 10px;
+}
 
+.top-margin-editor{
+  margin-top:20px;
+}
 
 .editor-grid {
   display: grid;
@@ -1043,3 +1053,11 @@ button {
 .most-popular-container {
   margin-left: 12px;
 }
+
+.most-popular a{
+  font-weight:700;
+  color:black;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
