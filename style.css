@@ -522,6 +522,10 @@ p {
   color: rgb(125, 125, 125);
 }
 
+.author a:hover {
+  text-decoration: none;
+}
+
 .more-grid div a:hover {
   color: rgb(153, 153, 153);
 }
@@ -560,10 +564,6 @@ p {
 
 .bottom-list li:hover {
   text-decoration: underline;
-}
-
-.author a:hover {
-  text-decoration: none;
 }
 
 .last-section-list a {
