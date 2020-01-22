@@ -460,6 +460,14 @@ p {
   margin-left: 12px;
 }
 
+.article-version a {
+  color: rgb(102, 102, 102);
+}
+
+.article-version a:hover {
+  text-decoration: none;
+}
+
 .editor-pick a {
   text-align: left;
   text-decoration: none;
@@ -469,14 +477,6 @@ p {
 
 .editor-pick a:hover {
   text-decoration: underline;
-}
-
-.article-version a {
-  color: rgb(102, 102, 102);
-}
-
-.article-version a:hover {
-  text-decoration: none;
 }
 
 .most-popular a {
