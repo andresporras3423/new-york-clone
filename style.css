@@ -1076,9 +1076,12 @@ font-size:10px;
 
 .most-popular a {
   padding-top: 5px;
-  border-top: solid 1px black;
+  border-top: solid 1px lightgray;
   text-decoration: none;
-  flex: 1;
+}
+
+.most-popular a:hover {
+  color: rgb(125,125,125);
 }
 
 .most-popular-container {
@@ -1136,11 +1139,11 @@ margin-top:50px;
   margin-bottom:5px;
 }
 
-.last-section-list ul li:first-child{
+.last-section-list h3{
   color: #333;
     font-size: 13px;
     font-weight: 700;
-    font-family: nyt-franklin;
+    font-family: Arial;
     height: 25px;
     line-height: 15px;
     margin: 0;
@@ -1148,3 +1151,13 @@ margin-top:50px;
     width: 150px;
 }
 
+.last-section-list a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.last-section-list a:hover {
+  text-decoration: underline;
+}
