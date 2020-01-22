@@ -1,3 +1,20 @@
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: helvetica, arial, sans-serif;
+  transition: ease 0.6s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  height: 34px;
+  text-transform: uppercase;
+}
+
 body {
   min-width: 1310px;
 }
@@ -209,7 +226,7 @@ header nav {
 }
 
 p {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: georgia, "times new roman", times, serif;
   font-size: 20px;
   font-stretch: 100%;
   font-style: normal;
@@ -239,25 +256,8 @@ p {
   border-color: rgb(150, 150, 150);
 }
 
-button {
-  border-radius: 3px;
-  cursor: pointer;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  transition: ease 0.6s;
-  white-space: nowrap;
-  vertical-align: middle;
-  background-color: #567b95;
-  border: 1px solid #326891;
-  color: #fff;
-  font-size: 11px;
-  line-height: 11px;
-  font-weight: 700;
-  height: 34px;
-  text-transform: uppercase;
-}
-
 .space-font {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 14.25px;
   font-weight: 700;
   text-decoration: none;
@@ -466,14 +466,14 @@ button {
   padding-bottom: 4px;
   text-align: right;
   color: rgb(153, 153, 153);
-  font-family: georgia, "times new roman";
+  font-family: georgia;
   font-size: 10px;
 }
 
 .more-grid div p {
   text-align: left;
   color: rgb(153, 153, 153);
-  font-family: georgia, "times new roman";
+  font-family: georgia;
   font-size: 10px;
 }
 
@@ -482,7 +482,7 @@ button {
   margin-bottom: 0;
   margin-top: 10px;
   color: black;
-  font-family: georgia, "times new roman", times, serif;
+  font-family: georgia, times, serif;
   font-size: 16px;
   text-decoration: none;
   display: block;
@@ -540,11 +540,11 @@ button {
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .image2-credits {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: georgia, times, serif;
   font-size: 13px;
 }
 
@@ -716,7 +716,7 @@ footer span {
 
 .go-home {
   color: #567b95;
-  font-family: nyt-franklin;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
