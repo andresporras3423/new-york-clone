@@ -11,14 +11,6 @@ header nav {
   background-color: white;
 }
 
-footer nav {
-  height: 40px; 
-  position: fixed; 
-  bottom: 0px; 
-  left: 0px; 
-  width: 100%;
-}
-
 /* BEGIN  this is not flexbox*/
 .float-xs-1 {
   float: left;
@@ -239,26 +231,6 @@ p {
 
 /* Begin of TINB */
 
-.flex-content {
-  display: flex;
-}
-
-.flex-horizontal-align {
-  flex-direction: column;
-  justify-content: center;
-}
-
-.flex-vertical-align {
-  flex-direction: row;
-  align-items: center;
-}
-
-.flex-center-align {
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
 .text-horizontal-align {
   width: 100%;
   text-align: center;
@@ -300,7 +272,7 @@ button {
   font-weight: 700;
   text-decoration: none;
   color: black;
-  display:block;
+  display: block;
   padding-top: 11px;
 }
 
@@ -661,30 +633,30 @@ button {
   background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
   height: 550px;
   z-index: -1;
 }
 
-.inflation-theory-grid p{
+.inflation-theory-grid p {
   font-size: 14px;
 }
 
-.inflation-1{
+.inflation-1 {
   position: absolute;
   top: 118px;
   left: 2px;
   width: 200px;
 }
 
-.inflation-2{
+.inflation-2 {
   position: absolute;
   top: 118px;
   left: 230px;
   width: 200px;
 }
 
-.inflation-3{
+.inflation-3 {
   position: absolute;
   top: 118px;
   left: 458px;
@@ -698,21 +670,21 @@ button {
   width: 200px;
 }
 
-.inflation-5{
+.inflation-5 {
   position: absolute;
   top: 400px;
   left: 2px;
   width: 200px;
 }
 
-.inflation-6{
+.inflation-6 {
   position: absolute;
   top: 400px;
   left: 230px;
   width: 200px;
 }
 
-.inflation-7{
+.inflation-7 {
   position: absolute;
   top: 400px;
   left: 458px;
@@ -726,8 +698,8 @@ button {
   width: 200px;
 }
 
-.more-grid div{
-  height:250px;
+.more-grid div {
+  height: 250px;
 }
 
 .more-grid div img {
@@ -735,42 +707,42 @@ button {
 
 }
 
-.more-grid div span{
-  padding-top:4px;
+.more-grid div span {
+  padding-top: 4px;
   padding-right: 10px;
   padding-bottom: 4px;
-text-align:right;
-color:rgb(153, 153, 153);
-font-family: georgia, "times new roman";
-font-size:10px;
-} 
-
-.more-grid div p{
-text-align:left;
-color:rgb(153, 153, 153);
-font-family: georgia, "times new roman";
-font-size:10px;
-} 
-
-.more-grid div a{
-    padding-right: 10px;
-    margin-bottom:0px;
-    margin-top:10px;
-    color:black;
-    font-family:georgia, "times new roman", times, serif;
-    font-size:16px;
-    text-decoration: none;
-    display:block;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-family: georgia, "times new roman";
+  font-size: 10px;
 }
 
-.more-grid div a:hover{
-  color:rgb(153, 153, 153);
+.more-grid div p {
+  text-align: left;
+  color: rgb(153, 153, 153);
+  font-family: georgia, "times new roman";
+  font-size: 10px;
+}
+
+.more-grid div a {
+  padding-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: black;
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.more-grid div a:hover {
+  color: rgb(153, 153, 153);
 }
 
 
 
-.top-margin-editor{
-  margin-top:20px;
+.top-margin-editor {
+  margin-top: 20px;
 }
 
 .editor-grid {
@@ -925,20 +897,27 @@ font-size:10px;
 
 .menu-icon {
   width: auto;
-  height: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  height: 22px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 14px;
 }
 
 .css-8xcdch {
   transform: rotate(-90deg);
   transition: transform 500ms ease 0s;
+  padding: 21px;
+}
+
+.css-8xcdch path {
+  fill: white;
 }
 
 .expand-font {
   font-family: arial;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
+  padding-top: 22px;
 }
 
 .article-content {
@@ -1081,31 +1060,49 @@ font-size:10px;
 }
 
 .most-popular a:hover {
-  color: rgb(125,125,125);
+  color: rgb(125, 125, 125);
 }
 
 .most-popular-container {
   margin-left: 12px;
 }
 
-.most-popular a{
-  font-weight:700;
-  color:black;
-  padding-top:15px;
-  padding-bottom:15px;
+.most-popular a {
+  font-weight: 700;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
 .css-oylsik {
   display: block;
   height: 44px;
   width: 184px;
 }
 
-footer{
-margin-top:50px;
+footer {
+  margin-top: 50px;
 }
 
-.last-section{
-  margin-bottom:100px;
+footer nav {
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #333;
+}
+
+footer span {
+  color: white;
+  font-size: 13px;
+  display: block;
+  padding-top: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.last-section {
+  margin-bottom: 100px;
 }
 
 .other-sections::before {
@@ -1118,8 +1115,8 @@ margin-top:50px;
   margin-top: 0;
 }
 
-.more-most{
-  margin-bottom:60px;
+.more-most {
+  margin-bottom: 60px;
 }
 
 
@@ -1135,31 +1132,31 @@ margin-top:50px;
   margin-top: 20px;
 }
 
-.last-section-list:last-of-type{
+.last-section-list:last-of-type {
   border-left: 1px solid #e2e2e2;
-  float:left;
-  width:16%;
+  float: left;
+  width: 16%;
 }
 
-.last-section-list:last-of-type ul{
-  padding-left:10px;
+.last-section-list:last-of-type ul {
+  padding-left: 10px;
 }
 
-.last-section-list ul li{
+.last-section-list ul li {
   list-style-type: none;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
-.last-section-list h3{
+.last-section-list h3 {
   color: #333;
-    font-size: 13px;
-    font-weight: 700;
-    font-family: Arial;
-    height: 25px;
-    line-height: 15px;
-    margin: 0;
-    text-transform: uppercase;
-    width: 140px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 140px;
 }
 
 .last-section-list a {
@@ -1173,13 +1170,13 @@ margin-top:50px;
   text-decoration: underline;
 }
 
-.subscribe li a{
+.subscribe li a {
   font-size: 11px;
 }
 
-li .list-icon{
+li .list-icon {
   font-size: 14px;
-  font-weight:700;
+  font-weight: 700;
 }
 
 .css-r5ic95 {
@@ -1191,27 +1188,24 @@ li .list-icon{
 }
 
 
-.bottom-list{
+.bottom-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
-.bottom-list li{
-  display:inline;
+.bottom-list li {
+  display: inline;
 }
 
-.bottom-list li a{
-  color: rgb(125,125,125);
-  font-size:11px;
-  text-decoration:none;
-  padding:8px;
-}
-.bottom-list li:hover{
-  text-decoration:underline;
+.bottom-list li a {
+  color: rgb(125, 125, 125);
+  font-size: 11px;
+  text-decoration: none;
+  padding: 8px;
 }
 
-
-
-
+.bottom-list li:hover {
+  text-decoration: underline;
+}
