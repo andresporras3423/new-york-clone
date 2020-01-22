@@ -484,6 +484,17 @@ p {
   font-size: 11px;
 }
 
+.more-grid div a {
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
 .editor-pick a:hover {
   text-decoration: underline;
 }
@@ -494,17 +505,6 @@ p {
 
 .most-popular a:hover {
   color: rgb(125, 125, 125);
-}
-
-.more-grid div a {
-  padding-right: 10px;
-  margin-bottom: 0;
-  margin-top: 10px;
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  text-decoration: none;
-  display: block;
 }
 
 .more-grid div a:hover {
