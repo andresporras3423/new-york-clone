@@ -460,6 +460,10 @@ p {
   margin-left: 12px;
 }
 
+.subscribe li a {
+  font-size: 11px;
+}
+
 .author a {
   color: black;
 }
@@ -524,9 +528,8 @@ p {
   font-size: 13px;
 }
 
-.read-comments-padding
-{
-  padding-bottom:25px;
+.read-comments-padding {
+  padding-bottom: 25px;
 }
 
 .css-4brsb6 {
@@ -631,10 +634,6 @@ p {
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-top: 20px;
-}
-
-.subscribe li a {
-  font-size: 11px;
 }
 
 li .list-icon {
