@@ -460,18 +460,6 @@ p {
   margin-left: 12px;
 }
 
-
-.last-section-list a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-
-.last-section-list a:hover {
-  text-decoration: underline;
-}
-
 .editor-pick a {
   text-align: left;
   text-decoration: none;
@@ -576,6 +564,17 @@ p {
 
 .author a:hover {
   text-decoration: none;
+}
+
+.last-section-list a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.last-section-list a:hover {
+  text-decoration: underline;
 }
 
 .top-margin-editor {
