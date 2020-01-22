@@ -456,25 +456,8 @@ p {
   border-color: #2e6da4;
 }
 
-.most-popular a {
-  padding-top: 5px;
-  border-top: solid 1px lightgray;
-  text-decoration: none;
-}
-
-.most-popular a:hover {
-  color: rgb(125, 125, 125);
-}
-
 .most-popular-container {
   margin-left: 12px;
-}
-
-.most-popular a {
-  font-weight: 700;
-  color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .author a {
@@ -645,44 +628,6 @@ p {
   margin-top: 20px;
 }
 
-.last-section-list:last-of-type {
-  border-left: 1px solid #e2e2e2;
-  float: left;
-  width: 16%;
-}
-
-.last-section-list:last-of-type ul {
-  padding-left: 10px;
-}
-
-.last-section-list ul li {
-  list-style-type: none;
-  margin-bottom: 5px;
-}
-
-.last-section-list h3 {
-  color: #333;
-  font-size: 13px;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  margin: 0;
-  text-transform: uppercase;
-  width: 140px;
-}
-
-.last-section-list a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-
-.last-section-list a:hover {
-  text-decoration: underline;
-}
-
 .subscribe li a {
   font-size: 11px;
 }
@@ -775,6 +720,19 @@ iframe {
   position: relative;
 }
 
+.most-popular a {
+  border-top: solid 1px lightgray;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.most-popular a:hover {
+  color: rgb(125, 125, 125);
+}
+
 .article-version a {
   color: rgb(102, 102, 102);
 }
@@ -791,6 +749,44 @@ iframe {
 }
 
 .editor-pick a:hover {
+  text-decoration: underline;
+}
+
+.last-section-list:last-of-type {
+  border-left: 1px solid #e2e2e2;
+  float: left;
+  width: 16%;
+}
+
+.last-section-list:last-of-type ul {
+  padding-left: 10px;
+}
+
+.last-section-list ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.last-section-list h3 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 140px;
+}
+
+.last-section-list a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.last-section-list a:hover {
   text-decoration: underline;
 }
 
