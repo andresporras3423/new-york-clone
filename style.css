@@ -480,6 +480,10 @@ p {
   padding-bottom: 15px;
 }
 
+.subscribe li a {
+  font-size: 11px;
+}
+
 .editor-pick a:hover {
   text-decoration: underline;
 }
@@ -490,10 +494,6 @@ p {
 
 .most-popular a:hover {
   color: rgb(125, 125, 125);
-}
-
-.subscribe li a {
-  font-size: 11px;
 }
 
 .more-grid div a {
