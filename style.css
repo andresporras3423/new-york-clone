@@ -499,6 +499,13 @@ p {
   display: inline;
 }
 
+.bottom-list li a {
+  color: rgb(125, 125, 125);
+  font-size: 11px;
+  text-decoration: none;
+  padding: 8px;
+}
+
 .editor-pick a:hover {
   text-decoration: underline;
 }
@@ -547,12 +554,7 @@ p {
   margin-bottom: 75px;
 }
 
-.bottom-list li a {
-  color: rgb(125, 125, 125);
-  font-size: 11px;
-  text-decoration: none;
-  padding: 8px;
-}
+
 
 .bottom-list li:hover {
   text-decoration: underline;
