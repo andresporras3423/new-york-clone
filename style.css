@@ -1,0 +1,835 @@
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: helvetica, arial, sans-serif;
+  transition: ease 0.6s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  height: 34px;
+  text-transform: uppercase;
+}
+
+body {
+  min-width: 1310px;
+}
+
+header nav {
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer nav {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+footer span {
+  color: white;
+  font-size: 13px;
+  display: block;
+  padding-top: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.float-xs-1 {
+  float: left;
+  width: 8.33%;
+  min-height: 1px;
+}
+
+.float-xs-2 {
+  float: left;
+  width: 16.66%;
+  min-height: 1px;
+}
+
+.float-xs-3 {
+  float: left;
+  width: 25%;
+  min-height: 1px;
+}
+
+.float-xs-4 {
+  float: left;
+  width: 33.33%;
+  min-height: 1px;
+}
+
+.float-xs-5 {
+  float: left;
+  width: 41.66%;
+}
+
+.float-xs-6 {
+  float: left;
+  width: 50%;
+  min-height: 1px;
+}
+
+.float-xs-7 {
+  float: left;
+  width: 58.33%;
+  min-height: 1px;
+}
+
+.float-xs-8 {
+  float: left;
+  width: 66.66%;
+  min-height: 1px;
+}
+
+.float-xs-9 {
+  float: left;
+  width: 75%;
+  min-height: 1px;
+}
+
+.float-xs-10 {
+  float: left;
+  width: 83.33%;
+  min-height: 1px;
+}
+
+.float-xs-11 {
+  float: left;
+  width: 91.66%;
+  min-height: 1px;
+}
+
+.float-xs-12 {
+  float: left;
+  width: 100%;
+  min-height: 1px;
+}
+
+.float-r-xs-12 {
+  float: right;
+  width: 100%;
+  min-height: 1px;
+}
+
+.float-d-xs-1 {
+  float: left;
+  width: 5%;
+  min-height: 1px;
+}
+
+.float-d-xs-2 {
+  float: left;
+  width: 10%;
+  min-height: 1px;
+}
+
+.float-d-xs-3 {
+  float: left;
+  width: 15%;
+  min-height: 1px;
+}
+
+.float-d-xs-4 {
+  float: left;
+  width: 20%;
+  min-height: 1px;
+}
+
+.float-d-xs-5 {
+  float: left;
+  width: 25%;
+  min-height: 1px;
+}
+
+.float-d-xs-6 {
+  float: left;
+  width: 30%;
+  min-height: 1px;
+}
+
+.float-d-xs-7 {
+  float: left;
+  width: 35%;
+  min-height: 1px;
+}
+
+.float-d-xs-8 {
+  float: left;
+  width: 40%;
+  min-height: 1px;
+}
+
+.float-d-xs-9 {
+  float: left;
+  width: 45%;
+  min-height: 1px;
+}
+
+.float-d-xs-10 {
+  float: left;
+  width: 50%;
+  min-height: 1px;
+}
+
+.float-d-xs-11 {
+  float: left;
+  width: 55%;
+  min-height: 1px;
+}
+
+.float-d-xs-12 {
+  float: left;
+  width: 60%;
+  min-height: 1px;
+}
+
+.float-d-xs-13 {
+  float: left;
+  width: 65%;
+  min-height: 1px;
+}
+
+.float-d-xs-14 {
+  float: left;
+  width: 70%;
+  min-height: 1px;
+}
+
+.float-d-xs-15 {
+  float: left;
+  width: 75%;
+  min-height: 1px;
+}
+
+.float-d-xs-16 {
+  float: left;
+  width: 80%;
+  min-height: 1px;
+}
+
+.float-d-xs-17 {
+  float: left;
+  width: 85%;
+  min-height: 1px;
+}
+
+.float-d-xs-18 {
+  float: left;
+  width: 90%;
+  min-height: 1px;
+}
+
+.float-d-xs-19 {
+  float: left;
+  width: 95%;
+  min-height: 1px;
+}
+
+.float-d-xs-20 {
+  float: left;
+  width: 100%;
+  min-height: 1px;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-horizontal-align {
+  width: 100%;
+  text-align: center;
+}
+
+.navigation-button button {
+  margin: 3px;
+  float: right;
+}
+
+.bottom-border {
+  border-bottom: solid 1px;
+  border-color: rgb(150, 150, 150);
+}
+
+.space-font {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14.25px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-top: 11px;
+}
+
+.space-font:hover {
+  text-decoration: underline;
+}
+
+.description-justify {
+  padding: 0 15px;
+  text-align: justify;
+}
+
+.title-content {
+  padding: 0 15px;
+}
+
+.top-padding-ten {
+  padding-top: 10px;
+}
+
+.border-bottom {
+  border-bottom-color: lightgrey;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.btn-gray {
+  background-color: #efefef;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.share-button {
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.comment {
+  font-size: 15px;
+}
+
+.content-grid {
+  font-size: 20px;
+}
+
+.inflation-theory-grid {
+  position: relative;
+  font-size: 14px;
+  background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  z-index: -1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inflation-theory-grid p {
+  font-size: 14px;
+}
+
+.inflation-1 {
+  position: absolute;
+  top: 118px;
+  left: 2px;
+  width: 200px;
+}
+
+.inflation-2 {
+  position: absolute;
+  top: 118px;
+  left: 230px;
+  width: 200px;
+}
+
+.inflation-3 {
+  position: absolute;
+  top: 118px;
+  left: 458px;
+  width: 200px;
+}
+
+.inflation-4 {
+  position: absolute;
+  top: 118px;
+  left: 686px;
+  width: 200px;
+}
+
+.inflation-5 {
+  position: absolute;
+  top: 400px;
+  left: 2px;
+  width: 200px;
+}
+
+.inflation-6 {
+  position: absolute;
+  top: 400px;
+  left: 230px;
+  width: 200px;
+}
+
+.inflation-7 {
+  position: absolute;
+  top: 400px;
+  left: 458px;
+  width: 200px;
+}
+
+.inflation-8 {
+  position: absolute;
+  top: 400px;
+  left: 686px;
+  width: 200px;
+}
+
+.editor-pick img {
+  width: 75px;
+  height: 75px;
+}
+
+.icons-grid {
+  text-align: center;
+}
+
+.icons-grid span {
+  position: relative;
+}
+
+.icons-grid span p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  position: absolute;
+  top: 20%;
+  left: 24%;
+}
+
+.span-relative span {
+  position: absolute;
+  top: 19%;
+  left: 23%;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.most-popular-container {
+  margin-left: 12px;
+}
+
+.editor-pick a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+}
+
+.article-version a {
+  color: rgb(102, 102, 102);
+}
+
+.most-popular a {
+  border-top: solid 1px lightgray;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.author a {
+  color: black;
+}
+
+.last-section-list a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.subscribe li a {
+  font-size: 11px;
+}
+
+.more-grid div a {
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.bottom-list li {
+  display: inline;
+}
+
+.bottom-list li a {
+  color: rgb(125, 125, 125);
+  font-size: 11px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.editor-pick a:hover {
+  text-decoration: underline;
+}
+
+.article-version a:hover {
+  text-decoration: none;
+}
+
+.most-popular a:hover {
+  color: rgb(125, 125, 125);
+}
+
+.author a:hover {
+  text-decoration: none;
+}
+
+.last-section-list a:hover {
+  text-decoration: underline;
+}
+
+.more-grid div a:hover {
+  color: rgb(153, 153, 153);
+}
+
+.more-grid div {
+  height: 250px;
+}
+
+.more-grid div img {
+  width: 95%;
+}
+
+.more-grid div span {
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.more-grid div p {
+  text-align: left;
+  color: rgb(153, 153, 153);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.bottom-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 75px;
+}
+
+.last-section-list ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.bottom-list li:hover {
+  text-decoration: underline;
+}
+
+.top-margin-editor {
+  margin-top: 20px;
+}
+
+.editor-grid {
+  font-size: 14px;
+}
+
+.group-icons-grid2 button {
+  height: 35px;
+}
+
+.menu-icon {
+  width: auto;
+  height: 22px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 14px;
+}
+
+.css-8xcdch {
+  transform: rotate(-90deg);
+  transition: transform 500ms ease 0s;
+  padding: 21px;
+}
+
+.css-8xcdch path {
+  fill: white;
+}
+
+.expand-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 22px;
+}
+
+.article-content {
+  max-width: 900px;
+  min-width: 850px;
+}
+
+.image-credit {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.image2-credits {
+  font-family: 'Times New Roman', Times, serif, times;
+  font-size: 13px;
+}
+
+.read-comments-padding {
+  padding-bottom: 25px;
+}
+
+.css-4brsb6 {
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  background-color: #999;
+  border: 1px #999 solid;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.css-4brsb6:hover {
+  background-color: #eee;
+  border: 1px #eee solid;
+}
+
+.css-ubw31m:hover {
+  background-color: #eee;
+  border: 1px #eee solid;
+}
+
+.comments-bubble {
+  fill: black;
+  width: 100%;
+  height: auto;
+  transform: scaleX(-1);
+  z-index: 1;
+}
+
+.comments-bubble:hover {
+  fill: lightgray;
+}
+
+.date-display {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+}
+
+.editor-pick {
+  margin-top: 20px;
+}
+
+.article-version {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
+
+.author {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.recommendations-container {
+  align-items: stretch;
+}
+
+.top-border {
+  padding-top: 7px;
+  border-top: solid 1px black;
+}
+
+.css-oylsik {
+  display: block;
+  height: 44px;
+  width: 184px;
+}
+
+.last-section {
+  margin-bottom: 100px;
+}
+
+.other-sections::before {
+  background-color: white;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.more-most {
+  margin-bottom: 60px;
+}
+
+.go-home {
+  color: #567b95;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+li .list-icon {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.css-r5ic95 {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.space-ripples {
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.big-band {
+  font-size: 35px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.cosmos-image {
+  width: 100%;
+}
+
+.rick-friedman {
+  font-size: 13px;
+}
+
+.date-font {
+  font-size: 13px;
+}
+
+.line-width {
+  width: 80px;
+}
+
+.unlock {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.login {
+  text-align: center;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.over-aside {
+  height: 1400px;
+}
+
+iframe {
+  border: none;
+}
+
+.span-relative {
+  position: relative;
+}
+
+.last-section-list:last-of-type {
+  border-left: 1px solid #e2e2e2;
+  float: left;
+  width: 16%;
+}
+
+.last-section-list:last-of-type ul {
+  padding-left: 10px;
+}
+
+.last-section-list h3 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 140px;
+}
