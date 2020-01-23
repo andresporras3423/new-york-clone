@@ -17,9 +17,9 @@ It is the Frontend of an article
 
 #### and deployed to GitHub
 
-## Live Demo not available until merge with master branch
+## Live Demo
 
-[Live Demo]()
+[Live Demo](https://andresporras3423.github.io/new-york-clone/)
 
 ## 🤝 Contributing
 
